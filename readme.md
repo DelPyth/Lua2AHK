@@ -1,6 +1,9 @@
 # Lua2AHK
 My half-assed attempt at using Lua in AHK.
 
+# Call to Arms
+I beg of you to help me make this happen. I cannot do this alone as I am inexperienced with executing external functions from a DLL file.
+
 ## Info
 - **Version**: 1.1.34.4+
 - **Type**: Unicode
