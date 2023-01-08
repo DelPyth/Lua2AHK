@@ -1,0 +1,227 @@
+#DllLoad ..\assets\lua54.dll
+
+; Modify this in your main program, not here.
+global __luadll                 := "..\assets\lua54.dll"
+
+global LUA_VERSION_MAJOR        := "5"
+global LUA_VERSION_MINOR        := "4"
+global LUA_VERSION_RELEASE      := "4"
+global LUA_VERSION_NUM          := 504
+global LUA_VERSION_RELEASE_NUM  := LUA_VERSION_NUM * 100 + 4
+global LUA_VERSION              := "Lua " . LUA_VERSION_MAJOR . "." . LUA_VERSION_MINOR
+global LUA_RELEASE              := LUA_VERSION . "." . LUA_VERSION_RELEASE
+global LUA_COPYRIGHT            := LUA_RELEASE . "  Copyright (C) 1994-2022 Lua.org, PUC-Rio"
+global LUA_AUTHORS              := "R. Ierusalimschy, L. H. de Figueiredo, W. Celes"
+global LUA_SIGNATURE            := "Lua"
+global LUA_MULTRET              := -1
+global LUA_OK                   := 0
+global LUA_YIELD                := 1
+global LUA_ERRRUN               := 2
+global LUA_ERRSYNTAX            := 3
+global LUA_ERRMEM               := 4
+global LUA_ERRERR               := 5
+
+/*
+ Creates a new Lua state.
+ * _Returns:_ The new state or NULL if there is a memory allocation error.
+ * _C Code:_ `lua_State* luaL_newstate(void);`
+ * _Example:_
+	```
+ 	L := luaL_newstate()
+	```
+*/
+luaL_newstate()
+{
+	return DllCall(__luadll . "\luaL_newstate", "ptr")
+}
+
+/*
+ * _C Code:_ `void luaL_openlibs(lua_State* L);`
+ * _Example:_
+	```
+	luaL_openlibs(L)
+	```
+*/
+luaL_openlibs(L)
+{
+	DllCall(__luadll . "\luaL_openlibs", "ptr", L)
+}
+
+/*
+ * _C Code:_ `void lua_setglobal(lua_State* L, const char* name);`
+ * _Example:_
+	```
+	lua_pushstring(L, A_AhkVersion)
+	lua_setglobal(L, "A_AhkVersion")
+
+	; Lua:  A_AhkVersion = <Whatever Ahk Version>
+	```
+*/
+lua_setglobal(L, name)
+{
+	DllCall(__luadll . "\lua_setglobal", "ptr", L, "astr", name)
+}
+
+/*
+ * _C Code:_ `void lua_pushcclosure(lua_State* L, lua_CFunction f, int n);`
+ * _Example:_
+	```
+	lua_pushcclosure(L, CallbackCreate(lua_MsgBox,, 1), 0)
+	lua_setglobal(L, "MsgBox")
+
+	lua_MsgBox(L)
+	{
+		msg := lua_tolstring(L, 1, 0)
+		title := lua_tolstring(L, 2, 0)
+		options := lua_tolstring(L, 3, 0)
+		result := MsgBox(msg, title, options)
+
+		; Push the result of the message box to lua.
+		lua_pushstring(L, result)
+		return 1
+	}
+	```
+*/
+lua_pushcclosure(L, f, n)
+{
+	DllCall(__luadll . "\lua_pushcclosure", "ptr", L, "ptr", f, "int", Integer(n))
+}
+
+/*
+ * _Returns:_ The string given. In C this would return the original pointer to the string, but in AHK this will just return the string.
+ * _C Code:_ `const char* lua_pushstring(lua_State* L, const char* s);`
+ * _Example:_
+	```
+	; Lua:  greeting = "Hello world!"
+
+	lua_pushstring(L, "Hello world!")
+	lua_setglobal(L, "greeting")
+	```
+*/
+lua_pushstring(L, s)
+{
+	DllCall(__luadll . "\lua_pushstring", "ptr", L, "astr", String(s))
+	return s
+}
+
+/*
+ * _C Code:_ `void lua_pushinteger(lua_State* L, lua_Integer n);`
+ * _Example:_
+	```
+	; Lua:  x = 10
+
+	lua_pushinteger(L, 10)
+	lua_setglobal(L, "x")
+	```
+*/
+lua_pushinteger(L, n)
+{
+	DllCall(__luadll . "\lua_pushinteger", "ptr", L, "int", Integer(n))
+}
+
+/*
+ * _C Code:_ `const char* lua_tolstring(lua_State* L, int index, size_t* len);`
+ * _Example:_ (View `lua_pushcfunction()`'s example for usage.)
+*/
+lua_tolstring(L, index, len)
+{
+	result := DllCall(__luadll . "\lua_tolstring", "ptr", L, "int", Integer(index), "int*", Integer(len))
+	return StrGet(result, "UTF-8")
+}
+
+/*
+ * _C Code:_ `lua_Integer lua_tointeger(lua_State* L, int index);`
+ * _Example:_ (View `lua_pushcfunction()`'s example for usage.)
+*/
+lua_tointeger(L, index)
+{
+	return DllCall(__luadll . "\lua_tointeger", "ptr", L, "int", Integer(index))
+}
+
+/*
+ * _Throws_: `Error()` if file does not exist. `Error()` if Lua could not open the file.
+ * _C Code:_ `int luaL_loadfilex(lua_State* L, const char* filename, const char* mode);`
+ * _Example:_
+	```
+	luaL_loadfilex(L, "add.lua", null)
+	```
+*/
+luaL_loadfilex(L, filename, mode)
+{
+	if (!FileExist(filename))
+	{
+		throw Error("File does not exist or is mispelled", -1, filename)
+	}
+
+	result := DllCall(__luadll . "\luaL_loadfilex", "ptr", L, "astr", String(filename),
+		mode == null ? "int" : "str", mode == null ? 0 : String(mode))
+
+	if (result != LUA_OK)
+	{
+		throw Error(lua_tolstring(L, -1, 0))
+	}
+
+	return result
+}
+
+/*
+ * _Throws_: `Error()` if the call went wrong.
+ * _C Code:_ `int lua_pcallk(lua_State* L, int nargs, int nresults, int msgh, lua_KContext ctx, lua_KFunction k);`
+ * _Example:_
+	```
+	lua_pcall(L, 0, LUA_MULTRET, 0)
+	```
+*/
+lua_pcallk(L, nargs, nresults, msgh, ctx, k)
+{
+	result := DllCall(__luadll . "\lua_pcallk",
+		"ptr", L,
+		"int", Integer(nargs),
+		"int", Integer(nresults),
+		"int", Integer(msgh),
+		"int", ctx,
+		k == null ? "int" : "ptr", k || 0
+	)
+
+	if (result != LUA_OK)
+	{
+		throw Error(lua_tolstring(L, -1, 0))
+	}
+
+	return result
+}
+
+/*
+ * _Throws_: `Error()` if Lua could not load the file or do the call safely.
+ * _C Code:_ `int luaL_dofile(lua_State* L, const char* filename);`
+ * _Example:_
+	```
+	luaL_dofile(L, "add.lua")
+	```
+*/
+luaL_dofile(L, filename)
+{
+	try
+	{
+		loadfilex_result := luaL_loadfilex(L, filename, null)
+	}
+	; Pass errors up the call tree.
+	catch Any as err
+	{
+		throw Error(err.message, -1, err.extra || null)
+	}
+
+	try
+	{
+		pcall_result := lua_pcallk(L, 0, LUA_MULTRET, 0, 0, null)
+	}
+	; Pass errors up the call tree.
+	catch Any as err
+	{
+		throw Error(err.message, -1, err.extra || null)
+	}
+
+	return loadfilex_result + pcall_result
+}
+
+

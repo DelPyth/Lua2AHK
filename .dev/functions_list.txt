@@ -1,0 +1,1520 @@
+==================================================
+Function Name     : lua_absindex
+Address           : 0x65b817b0
+Relative Address  : 0x000017b0
+Ordinal           : 47 (0x2f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_arith
+Address           : 0x65b81be0
+Relative Address  : 0x00001be0
+Ordinal           : 48 (0x30)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_atpanic
+Address           : 0x65b81780
+Relative Address  : 0x00001780
+Ordinal           : 49 (0x31)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_callk
+Address           : 0x65b82b60
+Relative Address  : 0x00002b60
+Ordinal           : 50 (0x32)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_checkstack
+Address           : 0x65b816a0
+Relative Address  : 0x000016a0
+Ordinal           : 51 (0x33)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_close
+Address           : 0x65b927e0
+Relative Address  : 0x000127e0
+Ordinal           : 52 (0x34)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_compare
+Address           : 0x65b81c30
+Relative Address  : 0x00001c30
+Ordinal           : 53 (0x35)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_concat
+Address           : 0x65b83140
+Relative Address  : 0x00003140
+Ordinal           : 54 (0x36)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_copy
+Address           : 0x65b819a0
+Relative Address  : 0x000019a0
+Ordinal           : 55 (0x37)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_createtable
+Address           : 0x65b825c0
+Relative Address  : 0x000025c0
+Ordinal           : 56 (0x38)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_dump
+Address           : 0x65b82de0
+Relative Address  : 0x00002de0
+Ordinal           : 57 (0x39)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_error
+Address           : 0x65b83080
+Relative Address  : 0x00003080
+Ordinal           : 58 (0x3a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gc
+Address           : 0x65b82e30
+Relative Address  : 0x00002e30
+Ordinal           : 59 (0x3b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getallocf
+Address           : 0x65b831e0
+Relative Address  : 0x000031e0
+Ordinal           : 60 (0x3c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getfield
+Address           : 0x65b823c0
+Relative Address  : 0x000023c0
+Ordinal           : 61 (0x3d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getglobal
+Address           : 0x65b822f0
+Relative Address  : 0x000022f0
+Ordinal           : 62 (0x3e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gethook
+Address           : 0x65b86750
+Relative Address  : 0x00006750
+Ordinal           : 63 (0x3f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gethookcount
+Address           : 0x65b86770
+Relative Address  : 0x00006770
+Ordinal           : 64 (0x40)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gethookmask
+Address           : 0x65b86760
+Relative Address  : 0x00006760
+Ordinal           : 65 (0x41)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_geti
+Address           : 0x65b823e0
+Relative Address  : 0x000023e0
+Ordinal           : 66 (0x42)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getinfo
+Address           : 0x65b869b0
+Relative Address  : 0x000069b0
+Ordinal           : 67 (0x43)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getiuservalue
+Address           : 0x65b826b0
+Relative Address  : 0x000026b0
+Ordinal           : 68 (0x44)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getlocal
+Address           : 0x65b868e0
+Relative Address  : 0x000068e0
+Ordinal           : 69 (0x45)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getmetatable
+Address           : 0x65b82640
+Relative Address  : 0x00002640
+Ordinal           : 70 (0x46)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getstack
+Address           : 0x65b86780
+Relative Address  : 0x00006780
+Ordinal           : 71 (0x47)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gettable
+Address           : 0x65b82330
+Relative Address  : 0x00002330
+Ordinal           : 72 (0x48)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_gettop
+Address           : 0x65b817e0
+Relative Address  : 0x000017e0
+Ordinal           : 73 (0x49)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_getupvalue
+Address           : 0x65b832a0
+Relative Address  : 0x000032a0
+Ordinal           : 74 (0x4a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_iscfunction
+Address           : 0x65b81a90
+Relative Address  : 0x00001a90
+Ordinal           : 75 (0x4b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_isinteger
+Address           : 0x65b81ac0
+Relative Address  : 0x00001ac0
+Ordinal           : 76 (0x4c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_isnumber
+Address           : 0x65b81ae0
+Relative Address  : 0x00001ae0
+Ordinal           : 77 (0x4d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_isstring
+Address           : 0x65b81b10
+Relative Address  : 0x00001b10
+Ordinal           : 78 (0x4e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_isuserdata
+Address           : 0x65b81b40
+Relative Address  : 0x00001b40
+Ordinal           : 79 (0x4f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_isyieldable
+Address           : 0x65b88680
+Relative Address  : 0x00008680
+Ordinal           : 80 (0x50)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_len
+Address           : 0x65b831b0
+Relative Address  : 0x000031b0
+Ordinal           : 81 (0x51)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_load
+Address           : 0x65b82d30
+Relative Address  : 0x00002d30
+Ordinal           : 82 (0x52)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_newstate
+Address           : 0x65b92210
+Relative Address  : 0x00012210
+Ordinal           : 83 (0x53)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_newthread
+Address           : 0x65b925e0
+Relative Address  : 0x000125e0
+Ordinal           : 84 (0x54)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_newuserdatauv
+Address           : 0x65b83240
+Relative Address  : 0x00003240
+Ordinal           : 85 (0x55)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_next
+Address           : 0x65b830b0
+Relative Address  : 0x000030b0
+Ordinal           : 86 (0x56)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pcallk
+Address           : 0x65b82bf0
+Relative Address  : 0x00002bf0
+Ordinal           : 87 (0x57)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushboolean
+Address           : 0x65b82270
+Relative Address  : 0x00002270
+Ordinal           : 88 (0x58)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushcclosure
+Address           : 0x65b821b0
+Relative Address  : 0x000021b0
+Ordinal           : 89 (0x59)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushfstring
+Address           : 0x65b82160
+Relative Address  : 0x00002160
+Ordinal           : 90 (0x5a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushinteger
+Address           : 0x65b82050
+Relative Address  : 0x00002050
+Ordinal           : 91 (0x5b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushlightuserdata
+Address           : 0x65b822a0
+Relative Address  : 0x000022a0
+Ordinal           : 92 (0x5c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushlstring
+Address           : 0x65b82070
+Relative Address  : 0x00002070
+Ordinal           : 93 (0x5d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushnil
+Address           : 0x65b82010
+Relative Address  : 0x00002010
+Ordinal           : 94 (0x5e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushnumber
+Address           : 0x65b82030
+Relative Address  : 0x00002030
+Ordinal           : 95 (0x5f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushstring
+Address           : 0x65b820d0
+Relative Address  : 0x000020d0
+Ordinal           : 96 (0x60)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushthread
+Address           : 0x65b822c0
+Relative Address  : 0x000022c0
+Ordinal           : 97 (0x61)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushvalue
+Address           : 0x65b81a00
+Relative Address  : 0x00001a00
+Ordinal           : 98 (0x62)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_pushvfstring
+Address           : 0x65b82130
+Relative Address  : 0x00002130
+Ordinal           : 99 (0x63)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawequal
+Address           : 0x65b81b70
+Relative Address  : 0x00001b70
+Ordinal           : 100 (0x64)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawget
+Address           : 0x65b82490
+Relative Address  : 0x00002490
+Ordinal           : 101 (0x65)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawgeti
+Address           : 0x65b824f0
+Relative Address  : 0x000024f0
+Ordinal           : 102 (0x66)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawgetp
+Address           : 0x65b82550
+Relative Address  : 0x00002550
+Ordinal           : 103 (0x67)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawlen
+Address           : 0x65b81e90
+Relative Address  : 0x00001e90
+Ordinal           : 104 (0x68)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawset
+Address           : 0x65b828f0
+Relative Address  : 0x000028f0
+Ordinal           : 105 (0x69)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawseti
+Address           : 0x65b82940
+Relative Address  : 0x00002940
+Ordinal           : 106 (0x6a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rawsetp
+Address           : 0x65b82910
+Relative Address  : 0x00002910
+Ordinal           : 107 (0x6b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_resetthread
+Address           : 0x65b92750
+Relative Address  : 0x00012750
+Ordinal           : 108 (0x6c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_resume
+Address           : 0x65b88490
+Relative Address  : 0x00008490
+Ordinal           : 109 (0x6d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_rotate
+Address           : 0x65b81890
+Relative Address  : 0x00001890
+Ordinal           : 110 (0x6e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setallocf
+Address           : 0x65b83200
+Relative Address  : 0x00003200
+Ordinal           : 111 (0x6f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setcstacklimit
+Address           : 0x65b920b0
+Relative Address  : 0x000120b0
+Ordinal           : 112 (0x70)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setfield
+Address           : 0x65b82800
+Relative Address  : 0x00002800
+Ordinal           : 113 (0x71)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setglobal
+Address           : 0x65b82720
+Relative Address  : 0x00002720
+Ordinal           : 114 (0x72)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_sethook
+Address           : 0x65b866d0
+Relative Address  : 0x000066d0
+Ordinal           : 115 (0x73)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_seti
+Address           : 0x65b82820
+Relative Address  : 0x00002820
+Ordinal           : 116 (0x74)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setiuservalue
+Address           : 0x65b82ac0
+Relative Address  : 0x00002ac0
+Ordinal           : 117 (0x75)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setlocal
+Address           : 0x65b86960
+Relative Address  : 0x00006960
+Ordinal           : 118 (0x76)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setmetatable
+Address           : 0x65b829c0
+Relative Address  : 0x000029c0
+Ordinal           : 119 (0x77)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_settable
+Address           : 0x65b82760
+Relative Address  : 0x00002760
+Ordinal           : 120 (0x78)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_settop
+Address           : 0x65b81800
+Relative Address  : 0x00001800
+Ordinal           : 121 (0x79)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setupvalue
+Address           : 0x65b83350
+Relative Address  : 0x00003350
+Ordinal           : 122 (0x7a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_setwarnf
+Address           : 0x65b83210
+Relative Address  : 0x00003210
+Ordinal           : 123 (0x7b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_status
+Address           : 0x65b82e20
+Relative Address  : 0x00002e20
+Ordinal           : 124 (0x7c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_stringtonumber
+Address           : 0x65b81cf0
+Relative Address  : 0x00001cf0
+Ordinal           : 125 (0x7d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_toboolean
+Address           : 0x65b81dc0
+Relative Address  : 0x00001dc0
+Ordinal           : 126 (0x7e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_tocfunction
+Address           : 0x65b81ef0
+Relative Address  : 0x00001ef0
+Ordinal           : 127 (0x7f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_toclose
+Address           : 0x65b830f0
+Relative Address  : 0x000030f0
+Ordinal           : 128 (0x80)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_tointegerx
+Address           : 0x65b81d70
+Relative Address  : 0x00001d70
+Ordinal           : 129 (0x81)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_tolstring
+Address           : 0x65b81df0
+Relative Address  : 0x00001df0
+Ordinal           : 130 (0x82)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_tonumberx
+Address           : 0x65b81d20
+Relative Address  : 0x00001d20
+Ordinal           : 131 (0x83)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_topointer
+Address           : 0x65b81fa0
+Relative Address  : 0x00001fa0
+Ordinal           : 132 (0x84)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_tothread
+Address           : 0x65b81f80
+Relative Address  : 0x00001f80
+Ordinal           : 133 (0x85)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_touserdata
+Address           : 0x65b81f30
+Relative Address  : 0x00001f30
+Ordinal           : 134 (0x86)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_type
+Address           : 0x65b81a30
+Relative Address  : 0x00001a30
+Ordinal           : 135 (0x87)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_typename
+Address           : 0x65b81a70
+Relative Address  : 0x00001a70
+Ordinal           : 136 (0x88)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_upvalueid
+Address           : 0x65b83430
+Relative Address  : 0x00003430
+Ordinal           : 137 (0x89)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_upvaluejoin
+Address           : 0x65b834b0
+Relative Address  : 0x000034b0
+Ordinal           : 138 (0x8a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_version
+Address           : 0x65b817a0
+Relative Address  : 0x000017a0
+Ordinal           : 139 (0x8b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_warning
+Address           : 0x65b83230
+Relative Address  : 0x00003230
+Ordinal           : 140 (0x8c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_xmove
+Address           : 0x65b81720
+Relative Address  : 0x00001720
+Ordinal           : 141 (0x8d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : lua_yieldk
+Address           : 0x65b88690
+Relative Address  : 0x00008690
+Ordinal           : 142 (0x8e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_addgsub
+Address           : 0x65b9c740
+Relative Address  : 0x0001c740
+Ordinal           : 1 (0x1)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_addlstring
+Address           : 0x65b9c140
+Relative Address  : 0x0001c140
+Ordinal           : 2 (0x2)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_addstring
+Address           : 0x65b9c160
+Relative Address  : 0x0001c160
+Ordinal           : 3 (0x3)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_addvalue
+Address           : 0x65b9c1a0
+Relative Address  : 0x0001c1a0
+Ordinal           : 4 (0x4)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_argerror
+Address           : 0x65b9af10
+Relative Address  : 0x0001af10
+Ordinal           : 5 (0x5)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_buffinit
+Address           : 0x65b9b380
+Relative Address  : 0x0001b380
+Ordinal           : 6 (0x6)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_buffinitsize
+Address           : 0x65b9c570
+Relative Address  : 0x0001c570
+Ordinal           : 7 (0x7)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_callmeta
+Address           : 0x65b9bc50
+Relative Address  : 0x0001bc50
+Ordinal           : 8 (0x8)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkany
+Address           : 0x65b9b2d0
+Relative Address  : 0x0001b2d0
+Ordinal           : 9 (0x9)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkinteger
+Address           : 0x65b9bb90
+Relative Address  : 0x0001bb90
+Ordinal           : 10 (0xa)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checklstring
+Address           : 0x65b9b9b0
+Relative Address  : 0x0001b9b0
+Ordinal           : 11 (0xb)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checknumber
+Address           : 0x65b9bb00
+Relative Address  : 0x0001bb00
+Ordinal           : 12 (0xc)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkoption
+Address           : 0x65b9ba60
+Relative Address  : 0x0001ba60
+Ordinal           : 13 (0xd)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkstack
+Address           : 0x65b9b270
+Relative Address  : 0x0001b270
+Ordinal           : 14 (0xe)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checktype
+Address           : 0x65b9b960
+Relative Address  : 0x0001b960
+Ordinal           : 15 (0xf)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkudata
+Address           : 0x65b9b910
+Relative Address  : 0x0001b910
+Ordinal           : 16 (0x10)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_checkversion_
+Address           : 0x65b9c870
+Relative Address  : 0x0001c870
+Ordinal           : 17 (0x11)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_error
+Address           : 0x65b9aeb0
+Relative Address  : 0x0001aeb0
+Ordinal           : 18 (0x12)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_execresult
+Address           : 0x65b9b0b0
+Relative Address  : 0x0001b0b0
+Ordinal           : 19 (0x13)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_fileresult
+Address           : 0x65b9b010
+Relative Address  : 0x0001b010
+Ordinal           : 20 (0x14)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_getmetafield
+Address           : 0x65b9b7f0
+Relative Address  : 0x0001b7f0
+Ordinal           : 21 (0x15)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_getsubtable
+Address           : 0x65b9c5d0
+Relative Address  : 0x0001c5d0
+Ordinal           : 22 (0x16)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_gsub
+Address           : 0x65b9c7c0
+Relative Address  : 0x0001c7c0
+Ordinal           : 23 (0x17)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_len
+Address           : 0x65b9bcb0
+Relative Address  : 0x0001bcb0
+Ordinal           : 24 (0x18)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_loadbufferx
+Address           : 0x65b9b770
+Relative Address  : 0x0001b770
+Ordinal           : 25 (0x19)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_loadfilex
+Address           : 0x65b9b4d0
+Relative Address  : 0x0001b4d0
+Ordinal           : 26 (0x1a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_loadstring
+Address           : 0x65b9b7a0
+Relative Address  : 0x0001b7a0
+Ordinal           : 27 (0x1b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_newmetatable
+Address           : 0x65b9b130
+Relative Address  : 0x0001b130
+Ordinal           : 28 (0x1c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_newstate
+Address           : 0x65b9c820
+Relative Address  : 0x0001c820
+Ordinal           : 29 (0x1d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_openlibs
+Address           : 0x65ba64a0
+Relative Address  : 0x000264a0
+Ordinal           : 30 (0x1e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_optinteger
+Address           : 0x65b9bc10
+Relative Address  : 0x0001bc10
+Ordinal           : 31 (0x1f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_optlstring
+Address           : 0x65b9ba00
+Relative Address  : 0x0001ba00
+Ordinal           : 32 (0x20)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_optnumber
+Address           : 0x65b9bb50
+Relative Address  : 0x0001bb50
+Ordinal           : 33 (0x21)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_prepbuffsize
+Address           : 0x65b9c5b0
+Relative Address  : 0x0001c5b0
+Ordinal           : 34 (0x22)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_pushresult
+Address           : 0x65b9b310
+Relative Address  : 0x0001b310
+Ordinal           : 35 (0x23)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_pushresultsize
+Address           : 0x65b9b370
+Relative Address  : 0x0001b370
+Ordinal           : 36 (0x24)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_ref
+Address           : 0x65b9b3a0
+Relative Address  : 0x0001b3a0
+Ordinal           : 37 (0x25)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_requiref
+Address           : 0x65b9c640
+Relative Address  : 0x0001c640
+Ordinal           : 38 (0x26)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_setfuncs
+Address           : 0x65b9bf10
+Relative Address  : 0x0001bf10
+Ordinal           : 39 (0x27)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_setmetatable
+Address           : 0x65b9b1c0
+Relative Address  : 0x0001b1c0
+Ordinal           : 40 (0x28)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_testudata
+Address           : 0x65b9b1f0
+Relative Address  : 0x0001b1f0
+Ordinal           : 41 (0x29)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_tolstring
+Address           : 0x65b9bd10
+Relative Address  : 0x0001bd10
+Ordinal           : 42 (0x2a)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_traceback
+Address           : 0x65b9c220
+Relative Address  : 0x0001c220
+Ordinal           : 43 (0x2b)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_typeerror
+Address           : 0x65b9b880
+Relative Address  : 0x0001b880
+Ordinal           : 44 (0x2c)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_unref
+Address           : 0x65b9b470
+Relative Address  : 0x0001b470
+Ordinal           : 45 (0x2d)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaL_where
+Address           : 0x65b9ae30
+Relative Address  : 0x0001ae30
+Ordinal           : 46 (0x2e)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_base
+Address           : 0x65b9da00
+Relative Address  : 0x0001da00
+Ordinal           : 143 (0x8f)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_coroutine
+Address           : 0x65ba69e0
+Relative Address  : 0x000269e0
+Ordinal           : 144 (0x90)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_debug
+Address           : 0x65b9ebb0
+Relative Address  : 0x0001ebb0
+Ordinal           : 145 (0x91)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_io
+Address           : 0x65ba00d0
+Relative Address  : 0x000200d0
+Ordinal           : 146 (0x92)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_math
+Address           : 0x65ba0ee0
+Relative Address  : 0x00020ee0
+Ordinal           : 147 (0x93)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_os
+Address           : 0x65ba1960
+Relative Address  : 0x00021960
+Ordinal           : 148 (0x94)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_package
+Address           : 0x65ba6280
+Relative Address  : 0x00026280
+Ordinal           : 149 (0x95)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_string
+Address           : 0x65ba52d0
+Relative Address  : 0x000252d0
+Ordinal           : 150 (0x96)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_table
+Address           : 0x65b9a710
+Relative Address  : 0x0001a710
+Ordinal           : 151 (0x97)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : luaopen_utf8
+Address           : 0x65ba7330
+Relative Address  : 0x00027330
+Ordinal           : 152 (0x98)
+Filename          : lua54.dll
+Full Path         : C:\Users\const\Documents\GitHub\Lua2AHK\assets\lua54.dll
+Type              : Exported Function
+==================================================
+
