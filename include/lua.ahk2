@@ -1,3 +1,16 @@
+/*
+  title:     Lua2Ahk
+  version:   0.1.0
+  copyright: GNU GENERAL PUBLIC LICENSE
+  binaries:
+	- ../assets/lua54.dll
+  ahk:
+    version: 2.0.2
+	bit:     64
+*/
+
+#Requires AutoHotkey v2.0.2
+
 #DllLoad ..\assets\lua54.dll
 
 ; Modify this in your main program, not here.
@@ -223,5 +236,3 @@ luaL_dofile(L, filename)
 
 	return loadfilex_result + pcall_result
 }
-
-
