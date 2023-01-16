@@ -1,0 +1,56 @@
+/*
+	This file does nothing and will do nothing for a while.
+	The purpose of this file is to show what my end goal for this project is.
+*/
+
+#Requires nothing. This is a concept idea, this will not work.
+
+; Initialize Lua.
+l := Lua()
+
+; Override print function as Lua's print can't print to a console AHK controls.
+; nil print(string txt)
+l.addFunc("print",
+	{
+		fn: (txt) => FileAppend(txt, "*"),  ; An anonymous function works fine.
+											; But it's recommended to use a standard function.
+											; Don't worry about the lua state.
+		args: [String],                     ; 1 argument, string.
+		return: [Lua.Nil]                   ; We're not returning any values so lets return nil instead.
+	}
+)
+l.addFunc("msgbox",
+	{
+		fn: MsgBox,
+		args: [String, String, String, String],  ; MsgBox takes 4 strings. Simple enough.
+		return: [String]                         ; MsgBox returns 1 value and that's a string.
+	}
+)
+
+
+; By default, the addVar method will check the value of the variable before creating it.
+; To specify a type, simply use one of the simple names for a variable type as the second parameter:
+;  str, int, num, and bool
+l.addVar("name",, "TopHatCat")
+l.addVar("date",, "01-01-9999")
+
+; You can specify tables (objects/maps) as the code below.
+; This is the equivalent as:
+;ahk = {
+;    version: A_AhkVersion,
+;    path: A_AhkPath,
+;    script: {
+;        name: A_ScriptName,
+;        hwnd: A_ScriptHwnd
+;    }
+;}
+l.addVar("ahk", "table")
+	.addVar("version",     "str", A_AhkVersion)
+	.addVar("path",        "str", A_AhkPath)
+	.addVar("script", "table")
+		.addVar("name",    "str", A_ScriptName)
+		.addVar("hwnd",    "str", A_ScriptHwnd)
+
+
+; Run file.
+l.execFile(A_ScriptDir . "\test.lua")
