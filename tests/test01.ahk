@@ -1,10 +1,10 @@
 #SingleInstance Force
 
-#include ..\include\lua.ahk2
+#include ..\include\lua.ahk
 
 #include ..\lib\
-#include io.ahk2
-#include misc.ahk2
+#include io.ahk
+#include misc.ahk
 
 global TEST_PATH := A_ScriptDir . "\scripts"
 
@@ -52,3 +52,4 @@ if (A_LineFile == A_ScriptFullPath)
 {
 	ExitApp(main(A_Args) || 0)
 }
+
