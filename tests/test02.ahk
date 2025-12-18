@@ -1,6 +1,6 @@
 #SingleInstance Force
 
-#include ..\include\lua.ahk2
+#include ..\include\lua.ahk
 
 #include ..\lib\
 #include io.ahk
@@ -45,4 +45,5 @@ if (A_LineFile == A_ScriptFullPath)
 {
 	ExitApp(main(A_Args) || 0)
 }
+
 
